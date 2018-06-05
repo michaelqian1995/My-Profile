@@ -16,3 +16,16 @@ a{ text-decoration:none}
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
   margin-top: 1em;
 }
+
+.nav a {
+  color: black;
+}
+
+.nav a:hover {
+  background-color: #fff;
+  color: #345cf0;
+}
+
+.nav a:focus {
+  outline: black;
+}
