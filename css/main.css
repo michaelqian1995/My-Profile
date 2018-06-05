@@ -1,0 +1,18 @@
+html {
+  background-color: #fafafa;
+  font-family: Roboto, sans-serif;
+}
+
+.nav {
+  background-color: white;
+  color: #345cf0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+}
+
+a{ text-decoration:none}
+
+.cards {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+  margin-top: 1em;
+}
