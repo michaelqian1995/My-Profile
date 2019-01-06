@@ -1,35 +1,43 @@
 html {
-  background-color: #fafafa;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.nav {
-  background-color: white;
-  color: #345cf0;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+.masthead {
+  background-color: #081F43;
 }
 
-a{ text-decoration:none}
-
-.cards {
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
-  margin-top: 1em;
-}
-
-.high-box {
-  
-}
 
 .nav a {
-  color: black;
+  color: #fff;
+  text-decoration: none;
 }
 
-.nav a:hover {
-  background-color: #fff;
-  color: #345cf0;
+h1 {
+  color: #fff;
+  font-style: bold;
 }
 
-.nav a:focus {
-  outline: black;
+.art-link {
+  font-weight: bold;
+}
+
+.side-bar {
+  background-color: #0A295E;
+}
+
+.side-bar-text {
+  list-style-type: none;
+  color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .masthead-title {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
 }
