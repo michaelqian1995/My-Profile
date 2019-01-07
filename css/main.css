@@ -17,6 +17,10 @@ h1 {
   font-style: bold;
 }
 
+h2 {
+  color: #0A295E;
+}
+
 .art-link {
   font-weight: bold;
 }
@@ -30,12 +34,24 @@ h1 {
   color: #fff;
 }
 
-/*/.high-light {
-  border-width: 0px 50px 0px 50px;
+.border {
+  border-width: 2px 0px 2px 0px;
   border-style:solid;
-  border-color: #081F43;
+  border-color: #E8E8E8;
 }
-/*/
+
+p{
+  font-family: regular 400 ;
+  color: #191919;
+}
+
+/*
+.high-light {
+  border-width: 2px 0px 2px 0px;
+  border-style:solid;
+  border-color: #fff;
+}
+*/
 
 
 
