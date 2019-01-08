@@ -12,6 +12,24 @@ html {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+  text-align: right;
+}
+
+.btn {
+  width: 190px;
+  border-style:solid;
+  border-color: #081F43;
+  color: #081F43;
+}
+
+.btn:hover {
+  color: #495562;
+  background-color: #fff;
+  border-color: transparent;
+}
+
 h1 {
   color: #fff;
   font-style: bold;
@@ -52,6 +70,11 @@ p{
   border-color: #fff;
 }
 */
+
+.side-bar-high-light {
+  border-top: 2px solid #fff;
+  background-color: #081F43;
+}
 
 
 
@@ -220,6 +243,12 @@ p{
 
   .nav {
     text-align: right;
+  }
+
+  @media only screen and (min-width: 30em) {
+
+  .btn {
+    text-align: center;
   }
 
 }
