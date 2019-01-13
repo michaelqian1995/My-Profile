@@ -219,6 +219,14 @@ p{
   margin-right: 0;
 }
 
+footer {
+  background-color: #081F43;
+}
+
+small {
+  color: #fff;
+}
+
 @media( max-width:992px) {
   .my-skill h2 {
 
